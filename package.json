@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/meldtree",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Meld lightweight tree statistics from stdin samples.",
+  "bin": {
+    "meldtree": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/meldtree.git"
+  },
+  "homepage": "https://theworker02.github.io/meldtree/",
+  "keywords": [
+    "meld",
+    "tree",
+    "stat",
+    "cli",
+    "toolkit"
+  ]
+}
